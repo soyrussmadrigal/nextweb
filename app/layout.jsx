@@ -4,7 +4,20 @@ export default function RootLayout({ children }) {
       <head>
         <title>My App</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <nav>
+          <h1>Navbar</h1>
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/about">About</a>
+            </li>
+          </ul>
+        </nav>
+        {children}
+      </body>
     </html>
   );
 }
