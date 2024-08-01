@@ -4,7 +4,6 @@ export default function StoreLayout({ children }) {
     <>
       <nav>
         <h3>Store Layout</h3>
-
         <ul>
           <li>
             <Link href="/store/">Store</Link>
